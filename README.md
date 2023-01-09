@@ -61,9 +61,15 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- React
+- JavaScript
+- CSS
+- ReactJS
+- GitHub-Pages
+- Eslint
+- Stylelint
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+(<a href="#readme-top">back to top</a>)
 
 <!-- LIVE DEMO -->
 
@@ -75,83 +81,76 @@ After you're finished please remove all the comments and instructions!
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started with Create React App <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Prerequisites
+## Available Scripts
 
-In order to run this project you need:
+In the project directory, you can run:
 
-<!--
-Example command:
+### `npm start`
 
-```sh
- gem install rails
-```
- -->
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Setup
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Clone this repository to your desired folder:
+### `npm test`
 
-<!--
-Example commands:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+### `npm run build`
 
-### Install
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Install this project with:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<!--
-Example command:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```sh
-  cd my-project
-  gem install
-```
---->
+### `npm run eject`
 
-### Usage
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-To run the project, execute the following command:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<!--
-Example command:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```sh
-  rails server
-```
---->
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Run tests
+## Learn More
 
-To run tests, run the following command:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-<!--
-Example command:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-You can deploy this project using:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-<!--
-Example:
+### `npm run build` fails to minify
 
-```sh
-
-```
- -->
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
