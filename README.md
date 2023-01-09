@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 . This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+(<a href="#readme-top">back to top</a>)
 
 <!-- LIVE DEMO -->
 
