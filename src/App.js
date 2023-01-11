@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Calculator from './components/Calculator';
+import './index.css';
 
 class App extends Component {
   constructor() {
