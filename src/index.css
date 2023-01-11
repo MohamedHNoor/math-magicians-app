@@ -47,6 +47,7 @@ body {
   background-color: #fff;
   color: #000;
   cursor: pointer;
+  font-size: 2rem;
   font-weight: bold;
   border: 1px solid rgb(198, 195, 195);
 }
