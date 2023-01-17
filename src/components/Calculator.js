@@ -16,9 +16,12 @@ const Calculator = () => {
   };
   const { total, next, operation } = state;
   return (
-    <div className="container">
-      <Screen total={total} next={next} operation={operation} />
-      <Buttons updateCalc={updateCalc} />
+    <div className="calculator">
+      <h3>Let`s do some maths!</h3>
+      <div className="container">
+        <Screen total={total} next={next} operation={operation} />
+        <Buttons updateCalc={updateCalc} />
+      </div>
     </div>
   );
 };
