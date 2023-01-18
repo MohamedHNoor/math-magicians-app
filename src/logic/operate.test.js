@@ -1,4 +1,5 @@
 import operate from './operate';
+
 describe('test for operate function', () => {
   it('should add numbers', () => {
     expect(operate(2, 1, '+')).toBe('3');

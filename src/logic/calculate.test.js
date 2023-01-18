@@ -1,4 +1,5 @@
 import calculate from './calculate';
+
 describe('testing calculate function', () => {
   test('should return total', () => {
     expect(calculate({ total: '20', next: 5, operation: '+' }, '=')).toEqual({
