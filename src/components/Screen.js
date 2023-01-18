@@ -1,24 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-// eslint-disable-next-line
-export default class Screen extends Component {
-  render() {
-    const { next, total } = this.props;
-    return (
-      <div className="screen">
-        <div className="result">{next !== null ? next : total || 0}</div>
+function Screen(props) {
+  const { next, total, operation } = props;
+  return (
+    <div className="screen">
+      <div className="result">
+        {total}
+        {operation}
+        {next}
       </div>
-    );
-  }
+    </div>
+  );
 }
+
+export default Screen;
 
 Screen.defaultProps = {
   total: '',
+  operation: '',
   next: '',
 };
 
 Screen.propTypes = {
   total: PropTypes.string,
   next: PropTypes.string,
+  operation: PropTypes.string,
 };
